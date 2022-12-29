@@ -1,0 +1,5 @@
+FROM ubuntu:14:04
+LABEL name="Shramik"
+LABEL email="shramik@gmial.com"
+RUN apt-get update && apt-get install -y python tree
+EXPOSE 80/tcp
